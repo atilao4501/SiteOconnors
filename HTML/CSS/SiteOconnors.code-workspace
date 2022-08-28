@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\.."
+	},
+	{
+		"path": "..\\..\\..\\..\\ParaUpar\\HTML-CSS\\BackgroundImages"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "SiteOconnors"
+  }
+}

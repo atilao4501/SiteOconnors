@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ChineseRocks;
+}
+
+@font-face {
+  font-family: ChineseRocks;
+  src: url(./Fontes/chinese\ rocks\ rg.otf);
+}
+.topo {
+  background-color: darkred;
+  display: flex;
+  height: 7rem;
+}
+.topo a {
+  margin-top: 2.2%;
+  margin-left: 2%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 250%;
+  font-weight: 800;
+}
+.barra {
+  height: 5rem;
+  background: rgb(39, 8, 8);
+  /* padding: 15px; */
+  text-align: center;
+}
+h2 {
+  display: inline-block;
+  width: 13.1vw;
+  max-width: 1170px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  border: solid 8px rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+}
+body {
+  background: linear-gradient(rgb(221, 2, 2), rgb(118, 3, 3), rgb(0, 0, 0));
+}
+#titulo {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: 2px 0 4px rgb(7, 7, 7);
+}
+.Meio {
+  display: contents;
+}
+#FotoTexto {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: solid rgba(0, 0, 0, 0.5) 5px;
+  padding: 3px;
+  border-radius: 4px;
+}
+#Perfil {
+  margin-left: 78%;
+}
+#FotoCasal {
+  width: 80%;
+  margin-left: 9.5%;
+  margin-bottom: 4%;
+  margin-top: 15px;
+  border: solid black 6px;
+  border-radius: 8px;
+}
+#DescricaoLado {
+  width: 40%;
+  margin-left: 50%;
+  margin-top: -32%;
+  font-size: xx-large;
+}
+#DescricaoSergio {
+  font-size: large;
+}
+p {
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 15%;
+  margin-top: -4%;
+  font-size: x-large;
+}
+h3 {
+  font-size: xx-large;
+  width: max-content;
+  margin-left: 8%;
+  color: white;
+  letter-spacing: 1px;
+}
+#FotoTextoJosiah {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: solid rgba(0, 0, 0, 0.5) 5px;
+  padding: 3px;
+  border-radius: 4px;
+}
+#DescricaoLadoJosiah {
+  width: 40%;
+  margin-left: 55%;
+  margin-top: -27%;
+  font-size: xx-large;
+}
+
+@media (max-width: 1351px) {
+  body {
+    width: 668px;
+    height: 2000px;
+  }
+  .topo {
+    width: 200%;
+  }
+  .barra {
+    width: 200%;
+  }
+  .barra h2 {
+    width: 10%;
+  }
+  .Meio {
+    height: 200%;
+  }
+  #FotoTexto {
+    width: 80%;
+  }
+  #FotoTextoJosiah {
+    width: 80%;
+  }
+  #titulo {
+    margin-top: 9%;
+    margin-left: 50%;
+    width: 100%;
+  }
+  #DescricaoLado {
+    margin-left: 120%;
+    width: 50%;
+    margin-top: -95%;
+  }
+  #DescricaoLadoJosiah {
+    margin-left: 100%;
+    font-size: x-large;
+    width: 60%;
+    margin-top: -50%;
+    margin-bottom: 30%;
+  }
+  p {
+    margin-top: 20%;
+    font-size: xx-large;
+  }
+  #FotoCasal {
+    width: 180%;
+  }
+  h3 {
+    margin-left: 12%;
+  }
+}
+@media (max-width: 758px) {
+  body {
+    width: 300px;
+    height: 2700px;
+  }
+  .barra {
+    width: 405%;
+  }
+  .topo {
+    width: 395%;
+  }
+  #titulo {
+    width: 200%;
+    margin-left: 105%;
+    margin-top: 80%;
+    margin-bottom: 80%;
+  }
+  #FotoTexto {
+    width: 200%;
+  }
+  #DescricaoLado {
+    width: 100%;
+    margin-left: 250%;
+    margin-top: -240%;
+  }
+  p {
+    margin-top: -50%;
+    margin-bottom: 120%;
+  }
+
+  h3 {
+    margin-left: 5%;
+  }
+  #FotoCasal {
+    width: 350%;
+    margin-left: 28%;
+    margin-bottom: 27%;
+  }
+}
